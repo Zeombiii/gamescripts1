@@ -37,11 +37,11 @@ private float horizontalInput;
             transform.position = new Vector3(transform.position.x * -1,
             transform.position.y, 0);
         }
-        if (transform.position.y > 1f)
+        if (transform.position.y > 1f) //This is the mid border of the game - Huy
         {
             transform.position = new Vector3(transform.position.x, 1f,0);
         }
-        else if (transform.position.y < -4f)
+        else if (transform.position.y < -4f) //This is the bottom border of the game - Huy
         {
             transform.position = new Vector3(transform.position.x, -4f, 0);
         }    
